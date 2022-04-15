@@ -46,7 +46,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom:none;
 }
 header:after {
   content: "";
@@ -131,10 +131,10 @@ code {
 }
 
 /* Nav */
-.nav {
-  padding: 0;
+.nav { 
+  padding: 1em;
   list-style: none;
-  float: left;
+  float: right;
   margin-left: 1em;
 }
 .nav-item {
